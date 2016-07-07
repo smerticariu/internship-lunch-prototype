@@ -1,0 +1,38 @@
+.navbar {
+  padding: 0 100px 20px 100px;
+  background: -webkit-linear-gradient(left, rgba(248,80,50,1) 0%, rgba(42,195,114,1) 0%, rgba(53,197,110,1) 6%, rgba(107,206,90,1) 35%, rgba(227,225,44,1) 100%);
+  &__item {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+    &--right {
+      float: right;
+      li {
+        float: left;
+        margin-right: 20px;
+      }
+    }
+  }
+  &__link {
+    font-size: 20px;
+    font-family: Arial;
+    text-decoration: none;
+    color: #fff;
+    line-height: 80px;
+  }
+  &__link:hover {
+    text-decoration: none;
+  }
+}
+
+// Logo
+
+.logo {
+  margin-right: 80px;
+}
+
+// Avatar
+
+.avatar {
+  border-radius: 50%;
+}

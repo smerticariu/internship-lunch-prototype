@@ -1,0 +1,19 @@
+{
+  "name": "internship-lunch-prototype",
+  "description": "Front end dev prototype setup",
+  "main": "gulpfile.js",
+  "authors": [
+    "Victor Jeman"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.2.3",
+    "motion-ui": "^1.2.2"
+  }
+}
