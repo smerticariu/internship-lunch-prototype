@@ -1,0 +1,12 @@
+.form_label {
+  display: block;
+  color: #717171;
+  &:first-child {
+    margin-top: 10px;
+  }
+}
+
+.form_notification {
+  font-family: $font;
+  font-size: 14px;
+}

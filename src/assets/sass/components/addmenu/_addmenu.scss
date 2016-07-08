@@ -1,4 +1,4 @@
-.addmenu {
+.container {
   display: block;
   width: 35%;
   margin: 0 auto;
@@ -15,7 +15,7 @@
     font-size: 20px;
     padding: 15px;
     outline: none;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 30px;
     border: 2px solid #E0E0E0;
     &:first-child {

@@ -26,8 +26,8 @@
   th {
     border: none;
     text-align: center;
-    color: #fff;
-    font-size: 20px;
+    color: $text-color;
+    font-size: $font-size;
     background-color: #56CF90;
     width: 300px;
   }
@@ -35,7 +35,7 @@
     width: 300px;
     text-align: center;
     color: #000;
-    font-size: 20px;
+    font-size: $font-size;
     margin-bottom: 20px;
   }
   td {
@@ -46,8 +46,8 @@
 .button {
   padding: 15px 50px 15px 50px;
   border-radius: 5px;
-  color: #fff;
-  font-size: 20px;
+  color: $text-color;
+  font-size: $font-size;
   background-color: #7FD151;
   outline: none;
   border: none;
