@@ -1,4 +1,4 @@
-.history {
+.lunch {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
   overflow-y: scroll;
   height: 30em;
@@ -19,7 +19,7 @@
   }
 }
 
-table {
+.lunch_table {
   display: table;
   margin: 0 auto;
   //box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
@@ -53,7 +53,8 @@ table {
   border: none;
   box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.55);
   &:active {
-    border: none;
+    box-shadow: 0px 0px 6px 0px rgba(0,217,255,0.55);
+    font-size: 18px;
   }
 }
 
