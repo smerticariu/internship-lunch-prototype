@@ -16,10 +16,40 @@
 </head>
 
 <body>
+  <!-- Navbar section -->
+  <nav class="navbar">
+    <div class="navbar__item--left">
+      <img class="logo" src="assets/img/logo.png">
+      <div class="dropdown">
+        <span>Welcome &#x25bc;</span>
+        <div class="dropdown__content">
+          <ul class="dropdown__list">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="addmenu.html">Add menu</a>
+            </li>
+            <li>
+              <a href="menutable.html">Menu table</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar__item--right">
+      <a class="navbar__link" href="#">User</a>
+      <img class="avatar" src="assets/img/user.jpg">
+    </div>
+  </nav>
+
 
   <main class="page-content">
     {{> body}}
   </main><!-- /page content -->
+
+  <footer></footer>
 
   <script src="{{root}}assets/js/app.js"></script>
 
