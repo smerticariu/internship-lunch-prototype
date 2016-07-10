@@ -10,24 +10,29 @@ $text-color: #fff;
   box-shadow: 0px 8px 7px 1px rgba(0,0,0,0.1);
   display: table;
   width: 100%;
+
   &__item {
     display: inline-block;
     list-style-type: none;
     padding: 0;
+
     &--left {
       float: left;
       margin-top: 7px;
     }
+
     &--right {
       float: right;
     }
   }
+
   &__link {
     font-size: $font-size;
     font-family: $font;
     text-decoration: none;
     color: $text-color;
   }
+
   &__link:hover {
     text-decoration: none;
   }
@@ -59,6 +64,7 @@ footer {
         color: $text-color;
         font-size: $font-size;
       }
+
     &__content {
       display: none;
       position: absolute;
